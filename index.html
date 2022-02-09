@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Piedra Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Juego ¡PIEDRA, PAPEL O TIJERA!</h1>
+        <h2>En este juego tendrás que escoger entre 3 posibles opciones: (Piedra, Papel o Tijera).</h2>
+    </header>
+    <main>
+        <form action="" id="form">
+            <div class="p1">
+                <p>Escoja para el jugador 1: <input type="text" name="jugador1" id="j1"></p>
+
+            </div>
+           <div class="p2">
+               <p>Escoja para el jugador 2: <input type="text" name="jugador2" id="j2"></p>
+               <p><input type="button" value="Enviar"  class="b2" onclick="resultadoJuego()"></p>
+           </div>
+        </form>
+        <div class="print1">
+
+            <div class="container">
+                <p id="print"></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

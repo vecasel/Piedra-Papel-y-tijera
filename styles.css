@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+header h1{
+    font: bold 6rem/1 arial;
+    text-transform: uppercase;
+    color: #c69c1e;
+    text-shadow: 0 10px 0 #41330a;
+    margin-bottom: 200px;
+}
+header h2{
+    font: bold 3rem/1 arial;
+    text-transform: uppercase;
+    color: rgb(10, 98, 150);
+    text-shadow: 0 6px 0 #41330a;
+    margin-bottom: 100px;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background-color: red;
+    align-items: center;
+    padding-left: 40px;
+}
+main div{
+    display: flex;
+    justify-content: center;
+}
+main p{
+    font-family: arial;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+}
+.b1, .b2{
+    background: rgb(10, 98, 150);
+    border-bottom: 5px solid #0045a6;
+    color: #fff;
+    cursor: pointer;
+    display: block;  
+    font-size: 20px;
+    height: 32px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 120px;
+  }
+  .b1:hover, .b2:hover {
+    background: #0096f7;
+  }
+  .b1:active, .b2:active {
+    border-bottom:1px solid #0045A6;
+    transform: translateY(4px);
+    transition: all 0.1s ease 0s;
+  }
+.print1{
+    height: 100%;
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+.print1 .container1{
+    width: 500px;
+}
+.print1 input{
+    background: rgb(10, 98, 150);
+    border-bottom: 5px solid #0045a6;
+    color: #fff;
+    cursor: pointer;  
+    font-size: 20px;
+    height: 32px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 120px;
+}
+.container{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
